@@ -1,6 +1,7 @@
 # conda env create environment.yml
 name: notebooks
 channels:
+  - ioos
   - conda-forge
 dependencies:
   - cartopy
