@@ -4,11 +4,12 @@ channels:
   - ioos
   - conda-forge
 dependencies:
+  - python=2.7
+  #- oceans
   - cartopy
   - folium
   - mpld3
   - numpy
-  - oceans
   - pandas
   - pillow
   - scipy
