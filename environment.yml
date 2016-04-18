@@ -6,11 +6,8 @@ channels:
 dependencies:
   - python=2.7
   #- oceans
-  - cartopy
-  - folium
-  - mpld3
+  - netcdf4
   - numpy
   - pandas
-  - pillow
-  - scipy
-  - vincent
+  - matplotlib
+  - datetime
