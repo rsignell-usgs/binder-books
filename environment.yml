@@ -1,10 +1,10 @@
 # conda env create environment.yml
 name: notebooks
 channels:
-  - ioos
   - conda-forge
+  - defaults
 dependencies:
-  - python=2.7
+  - python=3
   #- oceans
   - netcdf4
   - numpy
